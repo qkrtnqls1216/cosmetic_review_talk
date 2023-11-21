@@ -1,0 +1,54 @@
+/*리뷰 작성 창*/
+.login {
+  width: 470px;
+  margin: 0 auto;
+}
+fieldset {
+  border: none;
+  position: relative;
+  top: 150px;
+}
+legend {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.login-field {
+  background: #e0e0e0;
+  display: flex;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+.login-field label {
+  width: 50px;
+  line-height: 54px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #1f1e1e;
+  padding-left: 17px;
+  box-sizing: border-box;
+}
+.login-field input {
+  flex: 1;
+  line-height: 54px;
+  border: none;
+  padding: 0 16px;
+  color: #1f1e1e;
+  font-weight: 300;
+}
+/* .login-field:hover {
+  background: #a1a1a186;
+}
+.login-field.active {
+  background: #d8f1ff;
+} */
+.submit {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+.submit:hover {
+  background: #d8f1ff;
+}

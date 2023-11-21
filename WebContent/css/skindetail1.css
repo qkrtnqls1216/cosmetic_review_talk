@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.content {
+  margin: 80px auto 0;
+  padding: 0 25px 40px;
+  max-width: 100%;
+  border-bottom: 2px solid #eee;
+}
+.content h2 {
+  margin-bottom: 15px;
+  width: 100%;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+img {
+  display: block;
+  margin: 0px auto;
+  width: 150px;
+  height: 150px;
+}
+#content1 .skindetail a {
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+  font-size: 15px;
+}
+/*성분*/
+.gcomponent,
+.bcomponent {
+  font-size: 14px;
+  font-weight: 700;
+}
+.gcomponentparts {
+  color: blue;
+  font-size: 13px;
+}
+.bcomponentparts {
+  color: red;
+  font-size: 13px;
+}
+.table_1{
+	text-align:center;
+	background-color: #c3e7fc;
+}
+.table_3{
+	text-align:center;
+	background-color: #E2E2E2;
+}
+.table_4{
+}
+/*글쓰기*/
+.write {
+  background-color: rgb(196, 215, 252);
+  box-shadow: 0 0 5px rgb(204, 204, 204);
+  position: fixed;
+  bottom: 70px;
+  right: 15px;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 40px;
+}
+/*리뷰출력*/
+.content2 {
+  margin: 15px auto 0;
+  padding: 0 25px 40px; 
+  max-width: 100%;
+}
+.content2 h2 {
+  margin-bottom: 15px; 
+  width: 100%; 
+  line-height: 25px; 
+  font-size: 20px; 
+  font-weight: 600; 
+  letter-spacing: 2px; 
+  text-align: left;
+}
+
+.del {
+  background-color: rgb(196, 215, 252);
+  border: none;
+  position: relative;
+  float: right;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+}
+.report {
+  background-color: rgb(196, 215, 252);
+  border: none;
+  position: relative;
+  float: right;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+}

@@ -1,0 +1,53 @@
+/*리뷰 작성 창*/
+.join {
+  width: 470px;
+  margin: 0 auto;
+}
+fieldset {
+  border: none;
+  position: relative;
+  top: 100px;
+  font-weight: 400;
+}
+legend {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.join-field {
+  background: #e0e0e0;
+  display: flex;
+  padding: 3px;
+  margin-bottom: 13px;
+}
+.join-field label {
+  width: 90px;
+  line-height: 54px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #1f1e1e;
+  padding-left: 17px;
+  box-sizing: border-box;
+}
+.join-field select {
+  height: 50px;
+}
+.join-field input,
+.join-field select {
+  flex: 1;
+  line-height: 50px;
+  border: none;
+  padding: 0 16px;
+  color: #1f1e1e;
+  font-weight: 300;
+}
+.submit {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+.submit:hover {
+  background: #d8f1ff;
+}

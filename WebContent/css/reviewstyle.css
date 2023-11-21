@@ -1,0 +1,63 @@
+/*리뷰 작성 창*/
+.review {
+  width: 470px;
+  margin: 0 auto;
+}
+fieldset {
+  border: none;
+  position: relative;
+  top: 100px;
+}
+legend {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.review-field {
+  background: #e0e0e0;
+  display: flex;
+  padding: 3px;
+  margin-bottom: 13px;
+}
+.review-field label {
+  width: 133px;
+  line-height: 54px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #1f1e1e;
+  padding-left: 17px;
+  box-sizing: border-box;
+}
+.review-field input,
+.review-field select {
+  flex: 1;
+  line-height: 54px;
+  border: none;
+  padding: 0 16px;
+  color: #1f1e1e;
+  font-weight: 300;
+}
+.review-field textarea {
+  flex: 1;
+  border: none;
+  color: #7a7a7a;
+  font-weight: 300;
+  padding: 16px;
+}
+.review-field:hover {
+  background: #a1a1a186;
+}
+.review-field.active {
+  background: #d8f1ff;
+  color: #d92328;
+}
+.submit {
+  float: right;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+.submit:hover {
+  background: #d8f1ff;
+}
